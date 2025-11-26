@@ -87,6 +87,7 @@ Los reportes se generan automáticamente en la carpeta `reports/` después de ca
 ## Notas
 
 - Las pruebas de carga requieren k6 instalado globalmente o mediante Docker
+- Para la instalación de k6: choco install k6 -y
 - Los tiempos de respuesta se registran en los reportes generados
 - Se incluyen métricas de rendimiento: tiempo promedio, p95, p99, tasa de errores
 
