@@ -1,0 +1,20 @@
+{
+  "name": "prueba-tecnica-your-store",
+  "version": "1.0.0",
+  "description": "Prueba técnica de testing y automatización para Your Store",
+  "private": true,
+  "scripts": {
+    "install:api": "cd api-testing && npm install",
+    "install:automation": "cd automation && npm install",
+    "install:all": "npm run install:api && npm run install:automation"
+  },
+  "keywords": [
+    "testing",
+    "api-testing",
+    "automation",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
